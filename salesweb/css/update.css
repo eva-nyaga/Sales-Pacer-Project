@@ -1,0 +1,80 @@
+html,body,div,h1,h2,h3,h4,h5,h6,h7,h8,h9,img,ol,ul,li{
+				margin:0;
+				padding:0;
+				outline:0;
+				font-weight: inherit;
+				font-style: inherit;
+				font-size: 100%;
+				font-family: inherit;}
+
+			body{ 
+				background-color:#DBD6D9;
+				color: #555;
+				font: 13p;
+				font-style: normal;
+				font-weight: normal;
+				font-height: normal;
+				}
+
+#art-main{
+   background: #DBD6D9 url('images/pageglare.png') no-repeat fixed;
+   margin:0 auto;
+   font-size: 13px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   position: relative;
+   width: 100%;
+   min-height: 100%;
+   left: 0;
+   top: 0;
+   cursor:default;
+   overflow:hidden;
+}
+
+#Update_form{
+	background-color: #DBD6D9;
+	width: 350px;
+	height: 220px;
+
+	border: 1px solid grey;
+	margin:100px auto 100px;
+	padding: 1em;
+	-moz-border-radius:3px;
+	}
+
+#Update_form h1 {
+	font: 32px "Trebuchet MS", Arial;
+	padding: 10px;
+	color: #O9O;
+	text-align:center;
+	}
+	
+input[type=text], input[type=password]{
+display:block;
+margin: 0px;
+width: 180px;
+padding:0.5em;
+font-size: 14px;
+border: 1px solid #CCC;
+-border-radius: 1px;
+-moz-border-radius: 1px;
+}
+
+a{
+font-size:80%;
+}
+
+a:link {
+ border-style: solid; 
+ background-color:#ECF0F1;
+ border-width : 1px 1px 1px 1px;
+ font-color:black;
+ text-decoration : none;
+ padding : 2px;
+ border-color : #69f #00f #00f #69; 
+ }
+ 
+a:hover { 
+background-color:  #33B5E5; 
+}
